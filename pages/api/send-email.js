@@ -73,7 +73,7 @@ export default async function handler(req, res) {
             <li><strong>Email:</strong> ${email}</li>
             <br></br>
             <br></br>
-            <li><strong>Goals for Attending:</strong> ${message}</li>
+            <li><strong>Message:</strong> ${message}</li>
           </ul>
         `,
       });
