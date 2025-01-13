@@ -1,0 +1,129 @@
+/* Main Header Container */
+.header {
+    background-color: #1a202c; /* Dark gray background */
+    color: white; /* White text */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0 16px;
+  }
+  
+  /* Header Inner Wrapper */
+  .headerInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Branding Section */
+  .brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .brand:hover {
+    color: #38b2ac; /* Teal hover effect */
+  }
+  
+  .brandTagline {
+    display: none; /* Hidden by default on small screens */
+    font-size: 14px;
+    font-style: italic;
+    color: #a0aec0; /* Light gray color */
+  }
+  
+  @media (min-width: 768px) {
+    .brandTagline {
+      display: inline; /* Visible on medium and larger screens */
+    }
+  }
+  
+  /* Navigation Links */
+  .nav {
+    display: none; /* Hidden by default for mobile */
+    gap: 16px;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 4px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  .navLink:hover {
+    color: #38b2ac;
+  }
+  
+  .navLinkActive {
+    border-bottom: 2px solid #38b2ac; /* Teal underline for active link */
+  }
+  
+  /* Mobile Menu Button */
+  .menuButton {
+    display: flex; /* Visible on small screens */
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .menuButton:hover {
+    color: #38b2ac;
+  }
+  
+  /* Mobile Navigation */
+  .mobileNav {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    background-color: #2d3748; /* Dark gray background */
+    padding: 16px;
+    position: absolute;
+    top: 64px; /* Align below the header */
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+  
+  .mobileNavLink {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 8px 0;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .mobileNavLink:hover {
+    background-color: #38b2ac;
+    color: #1a202c;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .nav {
+      display: flex; /* Show navigation links on larger screens */
+    }
+  
+    .menuButton {
+      display: none; /* Hide mobile menu button */
+    }
+  
+    .mobileNav {
+      display: none; /* Hide mobile navigation */
+    }
+  }

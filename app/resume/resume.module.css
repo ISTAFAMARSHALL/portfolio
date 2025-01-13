@@ -1,0 +1,88 @@
+/* Wrapper for the resume section */
+.resumeSection {
+    padding: 2rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header wrapper for My Resume and Download Button */
+  .headerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    color: #1a202c;
+  }
+  
+  /* Download button */
+
+  .downloadButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3182ce;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .downloadButton:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .downloadIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  
+  /* Resume Image Wrapper */
+  .resumeImageWrapper {
+    margin: 2rem 0;
+  }
+  
+  .resumeImage {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Skills Section */
+  .details {
+    margin-top: 2rem;
+  }
+  
+  .subheading {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #1a202c;
+  }
+  
+  .skillsList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .skillItem {
+    font-size: 1rem;
+    color: #4a5568;
+    background-color: #f7fafc;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  

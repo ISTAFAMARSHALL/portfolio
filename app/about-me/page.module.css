@@ -1,0 +1,98 @@
+.aboutSection {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .profileImage {
+    /* width: 150px;
+    height: 150px; */
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    text-align: left;
+  }
+  
+  .text p {
+    margin-bottom: 15px;
+  }
+  
+  /* Timeline Section */
+  .timelineSection {
+    margin-top: 40px;
+  }
+  
+  .subheading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .timelineEvent {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .timelineDate {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .timelineTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .timelineDescription {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Skills and Certifications Section */
+  .skillsCertificationsSection {
+    margin-top: 40px;
+  }
+  
+  .skillsList,
+  .certificationsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skillItem,
+  .certificationItem {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
