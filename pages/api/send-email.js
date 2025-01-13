@@ -5,6 +5,9 @@ dotenv.config();
 
 const mj = mailjet.apiConnect(process.env.MJ_APIKEY_PUBLIC, process.env.MJ_APIKEY_PRIVATE);
 
+// MJ_APIKEY_PUBLIC='493db0f7d5bd0c22d3a4c1bce734763d'
+// MJ_APIKEY_PRIVATE='f6080181a8a29e56a2003b2b5a3c547a'
+
 async function sendEmail({ to, from, subject, text, html }) {
   const request = mj
     .post("send", { version: 'v3.1' })
