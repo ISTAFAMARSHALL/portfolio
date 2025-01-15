@@ -11,13 +11,10 @@ export default function AboutMeSection() {
                 <p className={styles.bio}>
                     My passion lies in creating visually stunning, user-friendly applications using front-end technologies like React and Next.js. With a customer-centric approach, I aim to deliver intuitive and engaging experiences that meet and exceed client expectations.
                 </p>
-                {/* <p className={styles.highlight}>
-                    Recent accomplishment: Successfully built a website from the ground up to launch a client's weekly luncheon initiative.
-                </p> */}
                 <p className={styles.highlight}>
-                    Recent accomplishment: Successfully built website to launch a client&apos;s weekly luncheon initiative, <a href="https://example.com" className={styles.siteLink} target="_blank" rel="noopener noreferrer">More Than Just a Lunch</a>
+                    Recent accomplishment: Successfully built website to launch a client&apos;s weekly luncheon initiative, <a href="https://nww-website-lunch-3.vercel.app" className={styles.siteLink} target="_blank" rel="noopener noreferrer">More Than Just a Lunch</a>
                 </p>
-                <a href="/resume.pdf" download className={styles.link}>
+                <a href="/about-me" className={styles.link}>
                     Learn more about me
                 </a>
             </div>

@@ -17,6 +17,8 @@ const projects = [
     description:
       "A dynamic and responsive web app allowing users to register for events, read testimonials, and learn about the organization's mission.",
     technologies: ["Next.js", "React", "MailJet API"],
+    liveDemo: "https://nww-website-lunch-3.vercel.app", 
+    codeRepository: "https://github.com/ISTAFAMARSHALL/nww-website3.0",
     image: moreThanJustaLunchappImg,
   },
   {
@@ -25,6 +27,8 @@ const projects = [
     description:
       "An innovative e-commerce platform inspired by Best Buy, designed to deliver an exceptional online shopping experience.",
     technologies: ["React", "Ruby on Rails"],
+    liveDemo: "https://next-commerce-app-alpha.vercel.app/",
+    codeRepository: "https://github.com/ISTAFAMARSHALL/next-commerce-app",
     image: smartBuyImg,
   },
   {
@@ -33,6 +37,8 @@ const projects = [
     description:
       "An advanced educational management tool optimized for seamless teacher-student interaction and academic tracking.",
     technologies: ["React", "Ruby on Rails"],
+    liveDemo: "",
+    codeRepository: "https://github.com/ISTAFAMARSHALL/S.T.I.M.S",
     image: stimsimg,
   },
 ];
@@ -58,9 +64,25 @@ export default function PortfolioPage() {
                 </li>
               ))}
             </ul>
-            <a href={`/portfolio/${project.slug}`} className={styles.projectLink}>
-              View Details
-            </a>
+            <div className={styles.projectLinkList} >
+              <a href={`/portfolio/${project.slug}`} className={styles.projectLink}>
+                View Details
+              </a>
+              { project.liveDemo ? (<a href={`${project.liveDemo}`} 
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.projectLink}
+              >
+                Live Demo
+              </a>) : null}
+              { project.codeRepository ? (<a href={`${project.codeRepository}`} 
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.projectLink}
+              >
+                Code Repository
+              </a>) : null }
+            </div>
           </div>
         ))}
       </div>

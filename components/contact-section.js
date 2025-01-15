@@ -17,12 +17,12 @@ export default function ContactSection() {
         {
             name: "LinkedIn",
             icon: <FaLinkedin />,
-            url: "https://linkedin.com/in/yourprofile",
+            url: "https://www.linkedin.com/in/istafa-a-marshall/",
         },
         {
             name: "GitHub",
             icon: <FaGithub />,
-            url: "https://github.com/yourprofile",
+            url: "https://github.com/ISTAFAMARSHALL",
         },
         {
             name: "X",
@@ -37,12 +37,12 @@ export default function ContactSection() {
                     <path d="M23.093 1.51a.812.812 0 0 0-1.247.17l-9.233 12.35-9.235-12.35a.812.812 0 0 0-1.247-.17L.372 2.954a.813.813 0 0 0-.17 1.247L10.18 13.5.2 22.8a.812.812 0 0 0 .17 1.247l1.759 1.444a.812.812 0 0 0 1.247-.17l9.234-12.35 9.234 12.35a.812.812 0 0 0 1.247.17l1.759-1.444a.812.812 0 0 0 .17-1.247L13.82 13.5l9.978-9.3a.812.812 0 0 0-.17-1.247L23.093 1.51z"></path>
                 </svg>
             ),
-            url: "https://twitter.com/yourprofile",
+            url: "https://x.com/IstafaMarshall",
         },
         {
             name: "Medium",
             icon: <FaMedium />,
-            url: "https://medium.com/@yourprofile",
+            url: "https://medium.com/@istafa.a.marshall",
         },
     ];
 
@@ -87,7 +87,7 @@ export default function ContactSection() {
                 <h2 className={styles.heading}>Get In Touch</h2>
                 <p className={styles.emailCTA}>
                     Or email me directly at{" "}
-                    <a href="mailto:YourEmail@example.com">YourEmail@example.com</a>
+                    <a href="mailto:istafamarshall@me.com">istafamarshall@me.com</a>
                 </p>
                 <form className={styles.contactForm} onSubmit={handleSubmit}>
                     <div className={styles.formGroup}>

@@ -66,8 +66,13 @@
     font-size: 12px;
   }
   
+  .projectLinkList {
+    list-style: none;
+    display: inline-flex;
+    gap: 15px;
+  }
+
   .projectLink {
-    display: inline-block;
     margin-top: 10px;
     color: #0070f3;
     text-decoration: none;

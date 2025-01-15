@@ -29,13 +29,15 @@ export default function PortfolioHighlights() {
                         </p>
                         <div className={styles.projectLinks}>
                             <Link
-                                href="/portfolio/more-than-just-a-lunch-app"
+                                href="https://nww-website-lunch-3.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className={styles.projectLink}
                             >
                                 Live Demo
                             </Link>
                             <a
-                                href="https://github.com/your-repo/more-than-just-a-lunch"
+                                href="https://github.com/ISTAFAMARSHALL/nww-website3.0"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.projectLink}
@@ -60,11 +62,15 @@ export default function PortfolioHighlights() {
                             A modern e-commerce platform with intuitive navigation and sleek design.
                         </p>
                         <div className={styles.projectLinks}>
-                            <Link href="/portfolio/smart-buy" className={styles.projectLink}>
+                            <Link href="https://next-commerce-app-alpha.vercel.app/" 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={styles.projectLink}
+                            >
                                 Live Demo
                             </Link>
                             <a
-                                href="https://github.com/your-repo/smart-buy"
+                                href="https://github.com/ISTAFAMARSHALL/next-commerce-app"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.projectLink}
@@ -75,7 +81,7 @@ export default function PortfolioHighlights() {
                     </div>
 
                     {/* Project 3 */}
-                    <div className={styles.projectCard}>
+                    {/* <div className={styles.projectCard}>
                         <Image
                             className={styles.projectImage}
                             src={stimsImg}
@@ -89,7 +95,11 @@ export default function PortfolioHighlights() {
                             A streamlined task and inventory management system.
                         </p>
                         <div className={styles.projectLinks}>
-                            <Link href="/portfolio/stims" className={styles.projectLink}>
+                            <Link href="/portfolio/stims" 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={styles.projectLink}
+                            >
                                 Live Demo
                             </Link>
                             <a
@@ -101,7 +111,7 @@ export default function PortfolioHighlights() {
                                 Code Repository
                             </a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <Link href="/portfolio" className={styles.viewAllButton}>
                     View All Projects
